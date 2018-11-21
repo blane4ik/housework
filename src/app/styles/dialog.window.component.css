@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.background{
+    width: 500px;
+    height: 165px;
+    margin-top: 150px;
+    margin-left: 400px;
+    border: 1px solid lightGray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px darkGray;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 40px;
+    margin: -1px;
+    background-color: #00a4f3;
+    border-top: 1px solid #00a4f3;
+    border-right: 1px solid #00a4f3;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 1px 1px 5px SteelBlue;
+}
+
+header p{
+    margin-top: 10px;
+    margin-left: 9px;
+    font-family: Tahoma, san-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px 3px gray;
+}
+
+.close{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    width: 20px;
+    height: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.close:hover{
+    color: #0284c3;
+    cursor: pointer;
+}
+
+.close:active{
+    box-shadow: inset 2px 2px 2px #0284c3;
+}
+
+.background label{
+    font-family: Arial, san-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+input{
+    width: 360px;
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid #d3d0d3;
+}
+
+input::placeholder{
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+.enter{
+    width: 500px;
+    height: 40px;
+    margin-top: 9px;
+    padding-top: 3px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    margin-top: 9px;
+    border-top-width: 300px;
+    border-top: 1px solid #d3d0d3;
+}
+
+.accept{
+    font-family: Tahoma, san-serif;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px;
+    margin-right: 9px;
+    text-align: center;
+    color: #fff;
+    background-color: #00a4f3;
+    border-radius: 3px;
+    border: 1px solid #0284c3;
+}
+
+.cancel{
+    font-family: Tahoma, san-serif;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px;
+    margin-right: 9px;
+    text-align: center;
+    color: #00a4f3;
+    border-radius: 3px;
+    border: 1px solid #0284c3;
+}
+
+.accept:hover{
+    background-color: #0284c3;
+    cursor: pointer;
+}
+
+.accept:active{
+    background-color: #00a4f3;
+    box-shadow: inset 1px 1px 1px #0284c3;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: #0284c3;
+}
+
+.cancel:active{
+    color: #00a4f3;
+    box-shadow: inset 1px 1px 1px #0284c3;
+}
