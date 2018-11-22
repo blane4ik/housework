@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightGray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px darkGray;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 40px;
+    margin: -1px;
+    background-color: #00a4f3;
+    border-top: 1px solid #00a4f3;
+    border-right: 1px solid #00a4f3;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 1px 1px 5px SteelBlue;
+}
+
+header p{
+    margin-top: 10px;
+    margin-left: 9px;
+    font-family: Tahoma, san-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px 3px gray;
+}
+
+.add{
+    float: right;
+    font-family: Tahoma, san-serif;
+    width: 40px;
+    height: 15px;
+    font-size:8px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 2px 1px 0 2px;
+    text-align: center;
+    color: White;
+    background-color: #00a4f3;
+    border-radius: 3px;
+    border: 1px solid #0284c3;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: #0284c3;
+}
+
+.add:active{
+    color: #fff;
+    box-shadow: inset 1px 1px 1px #00a4f3;
+}
+
+article{
+    margin-left: -15px;
+    font-family: Tahoma, san-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
