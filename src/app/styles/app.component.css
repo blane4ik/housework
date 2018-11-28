@@ -1,5 +1,5 @@
 h1, h2{
     color: #0284c3;
     text-align: center;
-    text-shadow: #bbcc 5px 5px 5px;
+    text-shadow: 5px 5px 5px #bbcc;
 }
