@@ -3,13 +3,12 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .background{
     width: 500px;
     height: 165px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 400px;
     border: 1px solid lightGray;
     border-radius: 3px;
@@ -41,17 +40,15 @@ header p{
 }
 
 .close{
-    font-family: Arial;
-    color: white;
-    text-align: center;
-    width: 20px;
-    height: 18px;
-    margin-top: 10px;
+    background-image: url("/src/app/ico/close.png");
+    width: 24px;
+    height: 24px;
+    margin-top: 9px;
     margin-right: 5px;
 }
 
 .close:hover{
-    color: #0284c3;
+    background-image: url("/src/app/ico/close_hover.png");
     cursor: pointer;
 }
 
@@ -145,4 +142,8 @@ input::placeholder{
 .cancel:active{
     color: #00a4f3;
     box-shadow: inset 1px 1px 1px #0284c3;
+}
+
+.invisible{
+    display: inline-block;
 }
